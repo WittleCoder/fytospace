@@ -21,21 +21,16 @@
   }
 
 .container {
-    flex-direction: row;
-    width: 100%;
-    height: 600px;
-    padding: 10px;
-    display: flex;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
 }
 
-.left {
-    flex: 25%;
-    justify-content: center;
-    align-items: center;
+.poem {
+    max-height: 800px;
 }
 
-.right {
-    flex: 75%;
-    justify-content: center;
-    align-items: center;
+.image {
+    max-height: 800px;
 }
