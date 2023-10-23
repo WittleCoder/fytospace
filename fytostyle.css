@@ -1,6 +1,4 @@
 .header {
-    position: fixed;
-    top: 0;
     width: 100%;
     background-color: aliceblue;
     color: black;
@@ -8,8 +6,6 @@
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color:rgb(220, 237, 242);
     color: grey;
