@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.titlebar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(220, 237, 242)
+}
+
+.titlebar-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 237, 242)
+    text-align: center;
+    color: black;
+    height: 100px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(6, 82, 105);
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    color: aliceblue;
+}
