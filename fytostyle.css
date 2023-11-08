@@ -1,29 +1,33 @@
-.header {
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.flex-item {
+    display: flex;
     width: 100%;
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8F3DC;
+    text-align: left;
 }
 
-.footer {
+.flex-item-header {
+    display: flex;
     width: 100%;
-    background-color:rgb(220, 237, 242);
-    color: grey;
-    text-align: center;
-    font-style: italic;
-    height:auto;
-  }
-
-.container {
-    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#74C69D;
+    text-align: center;  
 }
 
-.poem {
-    height: auto;
-    float: left;
-}
-
-.fytobobby {
-    float: right;
+.flex-item-image {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D8F3DC;
 }
