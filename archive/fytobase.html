@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fytostyle.css">
+<head>
+    <title>Fytobase</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item-header">
+            <h1>Welcome to Fytobase</h1>
+        </div>
+        <div class="flex-item">
+            <p>
+                This website aims to be a resource for understanding the phytochemicals (non-nutrient constituents) in regular foods. These molecules can:
+            </p>
+        </div>
+        <div class="flex-item">
+            <ul>
+                <li>Contribute to the culinary properties we enjoy in our meals or take into account during our cooking</li>
+                <li>Have pharmacological properties which may prove useful for DMPK scientists</li>
+                <li>May have health benefits - many of which are intimately linked to their agricultural methods of production (e.g. organic) or cooking</li>
+                <li>Explain how our body interacts with xenobiotics from a more evolutionary perspective</li>
+            </ul>
+        </div>
+        <div class="flex-item">
+            <p>
+                This website is a work in progress. The following images describe the design problems I am working through.
+            </p>
+        </div>
+        <div class="flex-item-image">
+            <img src="data_relationships.png" alt="Image of data types with relationships." width="1000px">
+        </div>
+        <div class="flex-item">
+            <p>
+                Note that the relationships would be best suited to a bidirectional lookup/analysis. For example, a user may wish to query all vegetables with phytochemical X, or they may wish to query all phytochemicals in vegetable Y.
+                The database must be easy to:
+            </p>
+        </div>
+        <div class="flex-item">
+            <p>
+                <ul>
+                    <li>Update manually with complex (and often long/spelling-sensitive) text without a major time cost or the need to learn complex commands</li>
+                    <li>Extract conclusions from data easily once the database has been sufficiently established</li>
+                    <li>Future-proofed, easy to back up and transferrable in the event of a better suited database environment</li>
+                    <li>Accessible via an API to other programs/languages for manipulation e.g. injection of data into webpage</li>
+                    <li>Difficult to corrupt by "butter-fingered" human users!</li>
+                </ul>
+            </p>
+        </div>
+        <div class="flex-item-image">
+            <img src="data_lists.png" alt="Image of the lists of data to be collected for each object." width="1000px">
+        </div>
+        <div class="flex-item">
+            <p>
+                Explore the databse linked in the lemon below!
+            </p>
+        </div>
+        <div class="flex-item-image">
+            <img src="limon_4.png" alt="Image of lemon with links" usemap="#lemon_map">
+            <map name="lemon_map">
+                <area shape="rect" coords="87, 155, 201, 183" alt="Features" href="features.html">
+                <area shape="rect" coords="207, 75, 305, 104" alt="Browse" href="entry.html">
+                <area shape="rect" coords="320, 150, 417, 177" alt="Indices" href="indices.html">
+                <area shape="rect" coords="335, 254, 432, 281" alt="Search" href="search.html">
+                <area shape="rect" coords="266, 357, 350, 387" alt="About" href="about.html">
+                <area shape="rect" coords="162, 348, 224, 383" alt="Help" href="help.html">
+                <area shape="rect" coords="80, 254, 188, 282" alt="Wittled" href="index.html">
+            </map>
+        </div>
+    </div>
+</body>
